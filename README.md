@@ -1,1 +1,5 @@
 # ejercicioLego
+
+Basicamente la utilización del programa es muy simple, inicialmente se define en una lista la importancia o prioridad de cada parte de la casa, siendo esto de menos importante a más importante, luego se añaden de manera ordenada o desordenada las partes que se quieren crear en el programa, esta partes son tomadas como instrucciones y son ubicadas de una manera específica según el código, por último se añaden las piezas de lego, mismas se añaden por número.
+
+Pasando a lo que es la estrategia de solución, básicamente utilicé pilas para poder dar un ordena lo que son las instrucciones según la manera en la que se solicita, teniendo una lista inicial para las instrucciones dadas por el usuario, una lista auxiliar que uso para poder acceder a elementos que se encuentran en medio de la lista, y una lista resultante que es la que se utiliza a la hora de ejecutar los métodos para la creación de partes, por otro lado, para las piezas utilicé una cola en la accedo a los elementos del top y si no son los que necesito, los meto al fondo de la cola.
